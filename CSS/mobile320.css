@@ -1,0 +1,9 @@
+.header {
+  margin: 0;
+}
+
+.col100 {
+  width: auto;
+  float: left;
+  position: relative;
+}

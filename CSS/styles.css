@@ -1,0 +1,262 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+  background-color: lightgrey;
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1024px;
+}
+
+.desenho {
+  width: 450px;
+}
+
+#desenho2 {
+ height: 600px;
+}
+
+.logo {
+  margin:10px 0px 6px 10px;
+  /* float: left; */
+  /* width: 70%; */
+}
+
+.socials ul li {
+  margin-top: 15px;
+  float: left;
+  padding: 5px;
+  list-style: none;
+}
+
+ul.social-logos {
+  margin: 10px;
+}
+
+.socialLogo {
+  width: 25px;
+  padding: 2px;
+}
+
+.socials {
+  width: 20%;
+  float: right;
+}
+
+.header-2, .content {
+  width: 1024px;
+  /* display: flex; */
+  margin: 0 auto;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 9.6px;
+}
+
+.menu ul li:hover {
+  border-bottom: 1px solid rgb(163, 224, 247);
+}
+
+.menu ul li a:hover {
+  color:rgb(163, 224, 247);
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu {
+  margin-top: 3px;
+  width: 70%;
+  float: left;
+}
+
+.menuUrls {
+  background-color:rgb(90, 79, 112);
+  border-bottom: 10px solid lightgrey;
+}
+
+.search {
+  text-align: center;
+  width: 30%;
+  float: right;
+}
+
+.search input {
+  background-image: url('../imgs/lupa.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50px;
+  height: 20px;
+  width: 200px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 3px;
+  border: 1px solid lightgrey;
+}
+
+.col100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+#fractal {
+  width: 60px;
+}
+
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  background-color: transparent;
+  background-size: 55px;
+  width: 100px;
+  height: 600px;
+  position: absolute;
+  z-index: 9;
+  left: 0;
+}
+
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  background-color: transparent;
+  background-size: 55px;
+  width: 100px;
+  height: 600px;
+  position: absolute;
+  z-index: 9;
+  top: 0%;
+  right: 0;
+}
+
+.slick-dots li button {
+  font-size: 0px;
+  border: 7px solid white;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 45%;
+  top: 94%;
+}
+
+.slick-dots li {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+li.slick-active button {
+  background-color: rgb(148, 48, 123);
+}
+
+.main-text {
+  text-align: center;
+}
+
+.main-text p {
+  color:darkslategray;
+}
+
+.main-text h1 {
+  color:rgb(5, 44, 102);
+}
+
+.col3 {
+  float: left;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  padding: 20px;
+  margin-top: 45px;
+}
+
+.col3 img {
+  width: 150px;
+}
+
+.col3 h3 {
+  padding-top: 30px;
+}
+
+.content-align {
+  display: flex;
+  padding: 40px 0px;
+}
+
+.img-text-block {
+  padding: 30px 0px;
+  background-color:rgba(63, 111, 143, 0.426);
+}
+
+.main-img {
+  border: 1px solid white;
+  padding: 50px;
+  margin: 10px;
+  background-color: lightgrey;
+}
+
+.col4 {
+  padding: 30px 0px;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.col4 img {
+  margin: 0 auto;
+  width: 150px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.colEggs {
+  background-color: gainsboro;
+}
+
+.footerCol {
+  padding: 30px;
+  float: left;
+  width: 19%;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(92, 44, 126);
+  color: white;
+}
+
+.footer2 {
+  text-align: center;
+  height: 60px;
+  color: whitesmoke;
+  background-color: rgb(35, 33, 40);
+}
+
+.footer2 p {
+  padding: 10px;
+}
